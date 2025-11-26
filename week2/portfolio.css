@@ -1,0 +1,106 @@
+/* -------- Global Styles -------- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f6fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* -------- Header Section -------- */
+
+header {
+    padding: 40px 20px;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;       /* enables positioning of the image */
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+header p {
+    font-size: 1.1rem;
+    width: 70%;
+    margin: auto;
+    color: #444;
+}
+
+header img {
+    position: absolute;
+    top: 40px;      /* distance from top */
+    right: 40px;    /* distance from right */
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    object-fit: cover;
+}
+
+/* -------- Section Cards -------- */
+section {
+    width: 80%;
+    background: white;
+    margin: 25px auto;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+    border-left: 5px solid #4b74ff;
+    padding-left: 10px;
+}
+
+/* -------- List Styling -------- */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* -------- Footer Section -------- */
+footer {
+    width: 80%;
+    background: white;
+    margin: 30px auto;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+footer h2 {
+    border-left: 5px solid #ff6b6b;
+    padding-left: 10px;
+}
+
+footer a {
+    color: #4b74ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 20px;
+    color: #444;
+    font-size: 0.95rem;
+}
+
+footer p span {
+    color: red;
+}
